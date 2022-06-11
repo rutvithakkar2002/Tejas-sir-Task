@@ -1,0 +1,4 @@
+1 customer
+disc-
+
+npp=d1+d2+d3

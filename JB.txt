@@ -1,0 +1,71 @@
+public class JB
+{
+	String name;
+	long no;
+	Scanner sc=new Scanner(System.in);
+	void signup()
+	{
+		System.out.println("Enter name: ");
+		name=sc.nextLine();
+		System.out.pritnln("Enter Mobile no: ");
+		no=sc.nextLong();
+		System.out.println("Signup successfully");
+	}
+	public static void main(String args[])
+	{
+	while(true)
+	{
+		int qty;
+		System.out.println("----------------Welcome-----------------");
+		System.out.println("1. Dabeli");
+		System.out.pritnln("2. Pizza");
+		System.out.println("3. Pasta");
+		System.out.println("Enter Your Choice: ");
+		int choice=sc.nextInt();
+		case 1:
+			static int Dabeli=25;
+			int price;
+			System.out.println("How many qty u want?");
+			qty=sc.nextInt();
+			if(qty>10)
+			{
+				System.out.println("You can give maximum 10 qty!!so, enter qty less than 10");
+				break;	
+			}
+			priced=Dabeli*qty;
+			System.out.println("Dabeli Price is: "+price);
+			break;
+		case 2:
+			static int Pizza=100;
+			int price;
+			System.out.println("How many qty u want?");
+			qty=sc.nextInt();
+			if(qty>10)
+			{
+				System.out.println("You can give maximum 10 qty!!so, enter qty less than 10");
+				break;	
+			}
+			pricep=Pizza*qty;
+			System.out.println("Pizza Price is: "+price);
+			break;
+			
+		case 3:
+			static int Pasta=120;
+			int price;
+			System.out.println("How many qty u want?");
+			qty=sc.nextInt();
+			if(qty>10)
+			{
+				System.out.println("You can give maximum 10 qty!!so, enter qty less than 10");
+				break;	
+			}
+			pricep=Pasta*qty;
+			System.out.println("Pasta Price is: "+price);
+			break;
+			
+		csse 3:
+			System.exit(0);		
+	}		
+				
+	}
+}
